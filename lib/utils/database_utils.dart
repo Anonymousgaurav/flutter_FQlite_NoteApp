@@ -6,8 +6,6 @@ import 'package:sqflite/sqflite.dart';
 import 'package:sqflite/sqlite_api.dart';
 import 'package:sqflite_todo/models/nodo_item.dart';
 
-
-
 class DatabaseHelper
 {
   static const String tableName = "table_notodo";
