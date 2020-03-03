@@ -43,7 +43,7 @@ class _HomeState extends State<Home> {
               new Container(
                 padding: new EdgeInsets.only(right: 16.0),
                 child: new ListTile(
-                  onTap: () =>
+                  onLongPress: () =>
                       _showDialogUpdate(context, itemList[position], position),
                   title: itemList[position],
                   trailing: new Listener(
